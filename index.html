@@ -5,48 +5,54 @@
         <title>Restaurante Spaghetti - Variações para cada gosto</title>
         <meta charset="UTF-8"> <!-- Permite acentos, cedilha e caracteres especiais-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="descripition" content="Conheça o melhor espaguete com temperos inesquescíveis">
         <!--Aplica responsividade no site - adapta telas menores-->
+
+        <link rel="stylesheet" href="CSS/style.css"> 
     </head>
 
 
     <body> <!-- CORPO DO SITE - CONTEÚDO VÍSIVEL PARA TODOS -->
         <header> <!-- CABEÇALHO DO CORPO DO SITE -->
             <div>
-                <a href="index.html">Restaurante<span>Spaghetti</span></a>
+                <a href="index.html"  class="logo">Restaurante<span>Spaghetti</span></a>
             </div>
-                <nav>
-                    <a href="index.html">Início</a>
-                    <a href="pages/sobre.html">Sobre</a>
-                    <a href="pages/cardápio.html">Cardápio</a>
-                    <a href="pages/contato.html">Contato</a>
+                <nav class="menu">
+                    <a href="index.html" class="ativo">Início</a>
+                    <a href="sobre.html">Sobre</a>
+                    <a href="cardápio.html">Cardápio</a>
+                    <a href="contato.html">Contato</a>
                 </nav>
         </header>
 
         <!-- CONTEÚDO DA PÁGINA DO SITE  -->
        
         <main>
-                <section>
-                            <div>
-                                  <h1>Sabores que conquista corações </h1>
-                                  <p>Descubra pratos deliciosos, preparados com ingredientes frescos e muito carinho.</p>
-                                  <a href="PAGES/cardápio.html"> Ver cardápio</a>
-                                <a href="PAGES/contato.html">Fale conosco</a>
-                            </div>
+                <section class="hero">
+                     <div>
+                        <h1>Sabores que conquista corações </h1>
+                        <p>Descubra pratos deliciosos, preparados com ingredientes frescos e muito carinho.</p>
+                        <a href="PAGES/cardápio.html"> Ver cardápio</a>
+                        <a href="PAGES/contato.html">Fale conosco</a>
+                     </div>
                 </section>
-                <div>
-                   <h2>Por que escolher nosso restaurante?</h2>
-                  
-                </div>
-                    <article>
+
+                <section class="destaques">
+                  <div>
+                      <h2>Por que escolher nosso restaurante?</h2>
+                     <div>
+                        <article class="card">
                             <h3>Sabores que encantam</h3>
-                             <p>Oferecemos refeicoes saborosas, e ingredientes de ótima qualidade</p>
+                             <p>Oferecemos refeicoes saborosas e ingredientes de ótima qualidade</p>
                              <p>Momementos incrivéis com a família</p>
-                    </article>
-                    <h3>Atendimento especial</h3>
-                    <P>Nossa equipe está pronta para oferecer uma experiência agradável a cada cliente.</P>
-                    </article>
-                </div>
-            </div>
+                        </article>
+
+                        <article class="card">
+                            <h3>Atendimento especial</h3>
+                            <p>Nossa equipe está pronta para oferecer uma experiência agradável a cada cliente.</P>
+                        </article>
+                      </div>
+                  </div>
             </section>
         </main>
 

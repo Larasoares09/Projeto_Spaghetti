@@ -5,27 +5,39 @@
         <title>Restaurante Spaghetti - Variações para cada gosto</title>
         <meta charset="UTF-8"> <!-- Permite acentos, cedilha e caracteres especiais-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="descripition" content="Conheça o melhor espaguete com temperos inesquescíveis">
         <!--Aplica responsividade no site - adapta telas menores-->
+        <style>
+            .sobre {
+                padding: 30px 20px;
+            }
+            .valores-lista{
+                list-style: none;
+                padding: 0;
+                text-align: center;
+            }
+        </style>
+        <link rel="stylesheet" href="CSS/style.css"> 
     </head>
 
 
     <body> <!-- CORPO DO SITE - CONTEÚDO VÍSIVEL PARA TODOS -->
         <header> <!-- CABEÇALHO DO CORPO DO SITE -->
             <div>
-                <a href="index.html">Restaurante<span>Spaghetti</span></a>
+                <a href="index.html" class="logo">Restaurante<span>Spaghetti</span></a>
             </div>
-                <nav>
+                <nav class="menu">
                     <a href="../index.html">Início</a>
-                    <a href="pages/sobre.html">Sobre</a>
-                    <a href="pages/cardápio.html">Cardápio</a>
-                    <a href="pages/contato.html">Contato</a>
+                    <a href="sobre.html" class="ativo">Sobre</a>
+                    <a href="cardápio.html">Cardápio</a>
+                    <a href="contato.html">Contato</a>
                 </nav>
         </header>
 
         <!-- CONTEÚDO DA PÁGINA DO SITE  -->
 <main>
             <!--Seção Principal da página Sobre-->
-             <section>
+             <section class="sobre">
                     <!--Título da página-->
                     <h2>Sobre a Spaghetti</h2>
 
